@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #f0ece3, #dcd2cc);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #4b3f3f;
+  }
+  
+  .quote-box {
+    margin-bottom: 1.5rem;
+    background-color: #f7f3f0;
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 120px;
+  }
+  
+  #quote-text {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  #quote-author {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #666;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    background-color: #8a6e63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #a08379;
+  }
+  
